@@ -39,8 +39,8 @@ public class InputManager : MonoBehaviour
         }
         else if (splitedInputData[0] == "1") //토양습도
         {
-            dirtMoisture = float.Parse(splitedInputData[1]);
-            Debug.Log(dirtMoisture);
+            //dirtMoisture = float.Parse(splitedInputData[1]);
+            //Debug.Log(dirtMoisture);
         }
         else if (splitedInputData[0] == "2") //습도
         {
@@ -50,7 +50,7 @@ public class InputManager : MonoBehaviour
         }
         else if (splitedInputData[0] == "4") //초음파1
         {
-            distance_1 = float.Parse(splitedInputData[1]);
+            //distance_1 = float.Parse(splitedInputData[1]);
         }
     }
 } 
